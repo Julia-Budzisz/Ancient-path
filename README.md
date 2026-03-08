@@ -33,4 +33,4 @@ In the final stage of development, I implemented the main menu, pause menu, cuts
 - Add additional options to the main menu
 - Add audio system
 
-
+![](MainMenu.png)
