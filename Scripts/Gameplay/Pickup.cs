@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+// Pickup – handles player interaction with collectible items
+// Updates UI slots, notifies the ArtefactPuzzleScript system, and destroys the collected object.
+// and destroys the picked-up object and its associated text prompt.
+
 public class Pickup : MonoBehaviour
 {
-    // Pickup – handles player interaction with collectible items
-    // Updates UI slots, notifies the ArtefactPuzzleScript system, and destroys the collected object.
-    // and destroys the picked-up object and its associated text prompt.
-
     [SerializeField] private GameObject text; // UI prompt displayed when player is in range
     [SerializeField] private string pieceName; // Identifier for the collected item
     private bool playerInRange = false; // Tracks if the player is in interaction range

@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+
+// Controls death effect
+
 public class DeathFade : MonoBehaviour
 {
     // Image used for fade effect

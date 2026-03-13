@@ -1,6 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
+// Controls disappearing platform behavior triggered by the player,
+// including animation and optional platform reset.
+
 public class VanishingPlatform : MonoBehaviour
 {
     [SerializeField] private float disappearTime = 3; // Time before platform disappears

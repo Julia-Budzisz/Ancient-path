@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+// Controls the rotation and selection of artefact segments in the puzzle
+
 public class Rotation : MonoBehaviour
 {
-    // Controls the rotation and selection of artefact segments in the puzzle
     public ArtefactPuzzleScript artefact; // Reference to the main artefact puzzle manager
     public ArtefactSegment[] segments; // All segments of the puzzle
     private bool outlineEnabled = false; // True if outlining is enabled

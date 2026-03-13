@@ -1,10 +1,11 @@
 using UnityEngine;
 
+
+// Manages a single segment of an artefact puzzle
+// Handles rotation and checking if it is in the correct state
+
 public class ArtefactSegment : MonoBehaviour
 {
-    // Manages a single segment of an artefact puzzle
-    // Handles rotation and checking if it is in the correct state
-
     public Material normalMaterial;
     public Material outlineMaterial;
 

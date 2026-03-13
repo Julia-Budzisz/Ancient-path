@@ -1,10 +1,10 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
+//This script manages the global activation of traps, enemies, UI, and doors when the artefact is completed
+
 public class GlobalActivation : MonoBehaviour
 {
-    //This script manages the global activation of traps, enemies, UI, and doors when the artefact is completed
-
     public GameObject arrowTrap;
     public GameObject floorTrap;
     public GameObject[] enemies;

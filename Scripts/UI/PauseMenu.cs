@@ -2,6 +2,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Manages the pause menu system including UI display,
+// time scaling, and cursor state control.
+
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu; // Reference to the pause menu UI

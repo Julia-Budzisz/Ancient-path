@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Manages the artefact puzzle interaction, player input, piece collection, and completion logic.
+
 public class ArtefactPuzzleScript : MonoBehaviour
 {
-    // Manages the artefact puzzle interaction, player input, piece collection, and completion logic.
-     
     public Camera artefactCamera; // Camera used to focus on the artefact
     public GameObject player; // Reference to the player object
     public GameObject finalPiece; // Object to reveal when puzzle is completed

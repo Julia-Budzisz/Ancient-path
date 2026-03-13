@@ -1,12 +1,16 @@
-using UnityEngine;
+ using UnityEngine;
 using UnityEngine.AI;
+
+// Controls enemy patrol behavior and player chasing using NavMesh navigation.
 
 public class Patrol : MonoBehaviour
 {
     // Patrol points array
     public Transform[] patrolPoints;
+
     // Current target patrol point
     [SerializeField] private int targetPoint;
+
     // NavMeshAgent for movement
     public NavMeshAgent mask;
 

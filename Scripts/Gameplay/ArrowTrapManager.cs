@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// ArrowTrapManager – controls the logic of an arrow trap system.
+// Spawns arrows from designated spawn points while the player is inside the trap area.
+
 public class ArrowTrapManager : MonoBehaviour
 {
-    // ArrowTrapManager – controls the logic of an arrow trap system.
-    // Spawns arrows from designated spawn points while the player is inside the trap area.
-
     [SerializeField] List<Transform> spawnPoints = new List<Transform>(); // Positions where arrows spawn
     [SerializeField] GameObject arrowPrototype; // Prefab of the arrow
     

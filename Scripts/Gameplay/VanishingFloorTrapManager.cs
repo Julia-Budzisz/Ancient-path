@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Activates the vanishing floor trap system and manages trigger state
+// used by individual vanishing platforms.
+
 public class VanishingFloorTrapManager : MonoBehaviour
 {
     public BoxCollider boxCollider; // The BoxCollider that detects when the player steps on the trap

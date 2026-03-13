@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Handles player death and respawn behavior,
+// including teleporting the player back to the respawn point.
+
 public class PlayerRespawn : MonoBehaviour
 {
     private CharacterController controller;
